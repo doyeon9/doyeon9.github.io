@@ -15,26 +15,26 @@ $F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\rig
 
 or
 
-'''math
-F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}
-'''
+```math
+$F_n=\dfrac{\left(\dfrac{1+\sqrt{5}}{2}\right)^n-\left(\dfrac{1-\sqrt{5}}{2}\right)^n}{\sqrt{5}}
+```
 ## 설치하는 법
 
-'''shell
+```shell
 $ git clone {addr}
 $ cd {repo name}
 $ pip install -r requirements.txt
-'''
+```
 
 ## 시작하는 법
 
-'''shell
+```shell
 $ python main.py
-'''
+```
 
 ## 기능 설명
 
-'''python
+```python
 def checker(answer, guess):
    if guess == answer:
    	print('Correct!')
@@ -42,7 +42,7 @@ def checker(answer, guess):
    else:
    	print('Wrong!')
 	return False
-'''
+```
 
 ## 더 많은 정보
 
